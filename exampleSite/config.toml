@@ -1,0 +1,39 @@
+baseurl = "https://example.github.com/"
+title = "Hugo Theme Pink"
+canonifyurls = true
+paginate = 12
+languageCode = "en-us"
+MetaDataFormat = "yaml"
+theme = "pink"
+googleAnalytics = "" # delete or comment to disable Google Analytics JS generation
+disqusShortname = "" #delete or comment to disable Disqus comments
+
+[params]
+  Keywords = ""
+  Author = "codehackfox"
+  recentPostCount = 7
+  intro = ["I am a Developer"]
+
+[[params.social]]
+  title = "Email"
+  url = "mailto:XXXXX@github.com"
+[[params.social]]
+  title = "Github"
+  url = "https://github.com/XXXX"
+[[params.social]]
+  title = "RSS"
+  url = ""
+
+
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
